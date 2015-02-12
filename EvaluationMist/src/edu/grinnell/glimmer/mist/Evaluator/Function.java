@@ -36,7 +36,12 @@ public class Function
    * @param double
    */
   public static double sub(double ... args){
-    9
+    double subtraction = 0;
+    for(double numbers : args){
+    	subtraction -= numbers;
+    }
+    
+    return subtraction;
   }
   
  
